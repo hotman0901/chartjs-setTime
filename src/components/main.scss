@@ -1,0 +1,48 @@
+* {
+  text-decoration: none;
+}
+
+a {
+  color: black;
+  padding: 6px;
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 9999;
+  background-color: #aaaaaa;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main {
+  margin-top: 65px;
+}
+
+p {
+  color: gray;
+}
+
+input[type="text"] {
+  width: 50%;
+  color: gray;
+}
+
+input[type="button"] {
+  font-size: 25px;
+  background-color: #000;
+  color: #fff;
+  cursor: pointer;
+  padding: 8px;
+}
+
+#embed-api-auth-container
+{
+  position: absolute;
+  top: 50px;
+  right: 0;
+}
